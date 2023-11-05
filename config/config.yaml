@@ -1,0 +1,8 @@
+server:
+  serverName: jerry
+  IP: 127.0.0.1
+  IPVersion: tcp
+  port: 9999
+  workerPoolSize: 3  # worker 数量
+  maxWorkerTaskLen: 20  # 一个 worker 中的 goroutine 数量
+  maxConnSize: 1
